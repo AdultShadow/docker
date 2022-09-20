@@ -29,7 +29,7 @@ spring:
     format:
       date: dd/MM/yyyy
   datasource:
-    url: jdbc:postgresql://host.docker.internal:host-gateway/hibernate
+    url: jdbc:postgresql://host.docker.internal:5432/hibernate
     username: postgres
     password: 1111
     driver-class-name: org.postgresql.Driver
